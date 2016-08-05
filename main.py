@@ -12,7 +12,7 @@ try:
 
 
         if(numUsuario==1):
-            print ("El numero es inpar y primo a la vez")
+            print ("El numero es impar y primo a la vez")
         elif((numUsuario%2)==0):
             print("par")
         else:
