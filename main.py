@@ -34,8 +34,19 @@ def main():
         except:
                 print("Debe de digitar un numero entero")
 
+<<<<<<< HEAD
 
 
 main()
+=======
+        if(numUsuario==1):
+            print ("El numero es impar y primo a la vez")
+        elif((numUsuario%2)==0):
+            print("par")
+        else:
+            print("Primo")
+except:
+        print("Debe de digitar un numero entero")
+>>>>>>> origin/master
 
 
