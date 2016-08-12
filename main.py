@@ -1,7 +1,10 @@
 
+
+#Metodo para encontrar primo
 def es_primo(numero):
     contador = 0
     verificar = False
+    #Verificamos
     for i in range(1, numero + 1):
         if (numero % i) == 0:
             contador = contador + 1
